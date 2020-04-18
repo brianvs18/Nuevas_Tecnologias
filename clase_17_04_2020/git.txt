@@ -1,0 +1,47 @@
+git add .
+
+git commit -m "added folter test with empty files git.txt"
+
+git diff   //Mostar los cambios que se han hecho en el archivo
+
+git add .
+
+git commit -m "first test"
+
+git diff    //Lo que se muestra rojo son las lineas borradas y en verde lo agregado
+
+git log    //Para ver el historico de git
+
+git add .
+
+git commit -m "test git diff"
+
+git commit --amend -m "pruebas realizadas con el comando"     //Para editar el comentario del commit
+
+git mv test/git.txt test/gitEjemplo.txt    //Para renombrar el archivo, debe de estar en la raiz (.git)
+
+git add .
+
+git commit -m "change filename"
+
+git rm test/gitEjemplo.txt    //Para eliminar un archivo, se debe dar la ruta
+
+touch test/prueba3.txt test/prueba4.txt  //Para crear archivos desde comando
+
+mkdir //Para crear carpetas
+
+git commit -m "added prueba3 and prueba4"
+
+git reflog  //Para mostrar el historico de los commit realizados
+
+git reset --soft "ID commit"  //PAra volver en el tiempo, el ID del commit se muestra haciendo el historico (git reflog)
+
+git reset --hard "ID commit"  //Devuelve el archivo que eleminamos, reseteal el repositorio, hace una restauracion
+
+touch test/.gitignore  //Archivo para hacer que git ignore X carpetas o archivos, que no se le hagan cambios
+
+
+
+
+
+

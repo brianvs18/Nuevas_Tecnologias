@@ -1,0 +1,2 @@
+no_modules/*  //No lleva el control de esta carpeta
+.jpg*   //No toma los archivos JPG
